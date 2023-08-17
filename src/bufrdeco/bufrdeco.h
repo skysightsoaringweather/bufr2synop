@@ -62,7 +62,7 @@ extern "C" {
   \def BUFR_LEN
   \brief Max length of a BUFR file
 */
-#define BUFR_LEN (512000)
+#define BUFR_LEN (512000000)
 
 /*!
    \def BUFR_OBS_DATA_MASK
@@ -326,7 +326,7 @@ extern "C" {
   \def BUFR_TABLEB_NAME_LENGTH
   \brief Max length (in chars) reserved for a name of variable in table B
 */
-#define BUFR_TABLEB_NAME_LENGTH (128)
+#define BUFR_TABLEB_NAME_LENGTH (512)
 
 /*!
   \def BUFR_TABLEB_NAME_LENGTH
